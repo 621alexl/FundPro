@@ -1,1 +1,1 @@
-web: gunicorn FundPro.wsgi --log-file - 
+web: gunicorn FundPro.wsgi 
