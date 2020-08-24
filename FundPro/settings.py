@@ -28,9 +28,9 @@ SECRET_KEY = '4=d#b=n@v)es#qucw5-ca!!hmbn4j565xd4v^=7sni^&xtvl1$'
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com', "aml7hqv.pythonanywhere.com"]
 
 
 # Application definition
@@ -75,7 +75,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'FundPro.wsgi.application'
+#WSGI_APPLICATION = 'FundPro.wsgi.application'
 
 
 # Database

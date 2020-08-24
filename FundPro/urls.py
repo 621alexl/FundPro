@@ -15,6 +15,7 @@ Including another URLconf
 """
 
 from django.conf.urls import url, include
+from django.shortcuts import  redirect
 
 from Accounts import views as core_views
 from django.contrib import admin
@@ -36,4 +37,6 @@ urlpatterns = [
     path('accounts/account_settings/', account_settings),
     path('accounts/change_password/', change_password),
     path('accounts/change_info/', change_info),
-    path('home/', home_view)]
+    path('home/', home_view),
+    path("", home_view)
+]

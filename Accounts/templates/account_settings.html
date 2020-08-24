@@ -21,6 +21,7 @@
     <div class="row pb-2">
         <div class="col-6">
             <form method="POST" action="/accounts/change_info/">
+                {% csrf_token %}
                 <div class="form-group">
                   <label >Username:</label>
                   <input type="username" class="form-control" name="username" value = {{user.username}}>

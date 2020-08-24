@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.template import RequestContext
 
 # Create your views here.
 from django.contrib.auth import login, authenticate
@@ -78,11 +79,13 @@ def logout_user(request):
 
 @login_required
 def account_settings(request):
+    
     context = {}
     return render(request, "account_settings.html", context)
 
 @login_required
 def change_info(request):
+
     if request.method == "POST":
         currentUser = request.user
         currentUser.username = request.POST.get("username")
