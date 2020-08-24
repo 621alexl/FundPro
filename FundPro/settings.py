@@ -75,7 +75,7 @@ TEMPLATES = [
     },
 ]
 
-#WSGI_APPLICATION = 'FundPro.wsgi.application'
+WSGI_APPLICATION = 'FundPro.wsgi.application'
 
 
 # Database
