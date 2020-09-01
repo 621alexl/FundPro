@@ -7,7 +7,7 @@ We used Django as our backend framework, Heroku to deploy our project, and Boots
 # Why FundPro
 Trading stocks is stressful! Some stocks are expensive (I'm looking at you Amazon!). Paper trading allows regular people like you and me to try out stock trading without having to risk our hard earned money while also allowing us to be students of valuation and investing!
 
-# How to USe
+# How to Use
 Once you've made an account by hitting signup on the home page, using FundPro is quite easy. Use the portfolio tab to monitor the stocks you've bought and sell any. Use the search tab to find stocks, stock info, and to buy stocks. Click the leaderboard tab to monitor other users, and that's about it. I'll leave the heavy investing thinking as an exercise to the reader.
 
 # Contributing
