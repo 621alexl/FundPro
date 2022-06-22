@@ -30,7 +30,7 @@ lxml==4.5.1
 mccabe==0.6.1
 multitasking==0.0.9
 networkx==2.4
-numpy==1.18.3
+numpy==1.22.0
 pandas==1.0.3
 parse==1.15.0
 plotly==4.8.2
